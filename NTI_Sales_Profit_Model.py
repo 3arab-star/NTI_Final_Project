@@ -100,8 +100,23 @@ html, body, [class*="css"] {
     color: #FFFFFF;
 }
 
+.stApp p, .stApp span, .stApp label,
+[data-testid="stMarkdownContainer"] {
+    color: #FFFFFF;
+}
+
 div[data-testid="stMetricValue"] { color: #FFFFFF; }
 div[data-testid="stMetricLabel"] { color: #C9F1B7; }
+
+section[data-testid="stSidebar"] {
+    background-color: #0E201C;
+}
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: #C9F1B7;
+}
 
 section[data-testid="stSidebar"] button {
     justify-content: flex-start;
