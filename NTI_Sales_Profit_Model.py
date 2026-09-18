@@ -135,23 +135,27 @@ section[data-testid="stSidebar"] button[data-testid="stBaseButton-secondary"]:ho
     color: #FFFFFF !important;
 }
 
-section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"] {
+section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"],
+section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"] * {
     background: #C9F1B7 !important;
     border: none !important;
     color: #152B26 !important;
 }
 
-section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"]:hover {
+section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"]:hover,
+section[data-testid="stSidebar"] button[data-testid="stBaseButton-primary"]:hover * {
     background: #E4F7EC !important;
     color: #152B26 !important;
 }
 
-button[data-testid="stBaseButton-primary"] {
+button[data-testid="stBaseButton-primary"],
+button[data-testid="stBaseButton-primary"] * {
     color: #152B26 !important;
     font-weight: 700;
 }
 
-button[data-testid="stBaseButton-primary"]:hover {
+button[data-testid="stBaseButton-primary"]:hover,
+button[data-testid="stBaseButton-primary"]:hover * {
     color: #152B26 !important;
 }
 
