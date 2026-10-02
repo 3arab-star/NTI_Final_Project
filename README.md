@@ -45,7 +45,7 @@ Comprehensive EDA was performed to uncover sales and profitability trends:
 * **Performance:** 
   * **MAE:** 8.20
   * **RMSE:** 39.07
-  * **R² Score:** 92.79% (Excellent variance explanation).
+  * **R² Score:** 90.31% (Excellent variance explanation).
 * **Feature Importance:** Sales (52.0%) and Cost Of Items (30.9%) are the strongest predictors of profit. 
 
 ## 🚀 Streamlit Application
